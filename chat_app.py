@@ -68,8 +68,3 @@ if st.sidebar.button("🔄 Reset Conversation"):
     st.session_state.chat = model.start_chat(history=[])
     st.session_state.messages = []
     st.experimental_rerun()
-
-
-
-
-
